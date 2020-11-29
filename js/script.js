@@ -5,7 +5,7 @@ $('.page-scroll').on('click', function (e) {
     var elemenTujuan = $(tujuan);
 
     $('html , body').animate({
-        scrollTop: elemenTujuan.offset().top - 40
+        scrollTop: elemenTujuan.offset().top - 80
     }, 1250, 'easeInOutExpo');
 
     e.preventDefault();
